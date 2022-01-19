@@ -1,0 +1,23 @@
+{
+  "name": "zenkart_api",
+  "version": "1.0.0",
+  "description": "This is for api",
+  "main": "api.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "APS",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chalk": "^5.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongodb": "^4.2.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {}
+}

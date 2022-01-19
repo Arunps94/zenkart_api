@@ -1,0 +1,155 @@
+// 20211217154215
+// http://localhost:8123/category
+
+[
+  {
+    "category_id": 1,
+    "subCategory_id": 1,
+    "category": "Fashion",
+    "subCategory": "Shirt"
+  },
+  {
+    "category_id": 1,
+    "subCategory_id": 2,
+    "category": "Fashion",
+    "subCategory": "T-shirt"
+  },
+  {
+    "category_id": 1,
+    "subCategory_id": 3,
+    "category": "Fashion",
+    "subCategory": "Trousers"
+  },
+  {
+    "category_id": 1,
+    "subCategory_id": 4,
+    "category": "Fashion",
+    "subCategory": "Jeans"
+  },
+  {
+    "category_id": 1,
+    "subCategory_id": 5,
+    "category": "Fashion",
+    "subCategory": "Shoes"
+  },
+  {
+    "category_id": 2,
+    "subCategory_id": 6,
+    "category": "Electronics",
+    "subCategory": "Mobiles"
+  },
+  {
+    "category_id": 2,
+    "subCategory_id": 7,
+    "category": "Electronics",
+    "subCategory": "Laptops"
+  },
+  {
+    "category_id": 2,
+    "subCategory_id": 8,
+    "category": "Electronics",
+    "subCategory": "Smart television"
+  },
+  {
+    "category_id": 2,
+    "subCategory_id": 9,
+    "category": "Electronics",
+    "subCategory": "Cameras"
+  },
+  {
+    "category_id": 2,
+    "subCategory_id": 10,
+    "category": "Electronics",
+    "subCategory": "Electronics Accessories"
+  },
+  {
+    "category_id": 3,
+    "subCategory_id": 11,
+    "category": "Beauty & Personal care",
+    "subCategory": "Face wash"
+  },
+  {
+    "category_id": 3,
+    "subCategory_id": 12,
+    "category": "Beauty & Personal care",
+    "subCategory": "Shampoo"
+  },
+  {
+    "category_id": 3,
+    "subCategory_id": 13,
+    "category": "Beauty & Personal care",
+    "subCategory": "Soap"
+  },
+  {
+    "category_id": 3,
+    "subCategory_id": 14,
+    "category": "Beauty & Personal care",
+    "subCategory": "Cream"
+  },
+  {
+    "category_id": 3,
+    "subCategory_id": 15,
+    "category": "Beauty & Personal care",
+    "subCategory": "Perfume"
+  },
+  {
+    "category_id": 4,
+    "subCategory_id": 16,
+    "category": "Home",
+    "subCategory": "Living Room"
+  },
+  {
+    "category_id": 4,
+    "subCategory_id": 17,
+    "category": "Home",
+    "subCategory": "Kitchen & Dining"
+  },
+  {
+    "category_id": 4,
+    "subCategory_id": 18,
+    "category": "Home",
+    "subCategory": "Bedroom room"
+  },
+  {
+    "category_id": 4,
+    "subCategory_id": 19,
+    "category": "Home",
+    "subCategory": "Tools & Utility"
+  },
+  {
+    "category_id": 4,
+    "subCategory_id": 20,
+    "category": "Home",
+    "subCategory": "Cleaing & bath"
+  },
+  {
+    "category_id": 5,
+    "subCategory_id": 21,
+    "category": "Appliances",
+    "subCategory": "Washing Machine"
+  },
+  {
+    "category_id": 5,
+    "subCategory_id": 22,
+    "category": "Appliances",
+    "subCategory": "Air Conditioner"
+  },
+  {
+    "category_id": 5,
+    "subCategory_id": 23,
+    "category": "Appliances",
+    "subCategory": "Refrigerators"
+  },
+  {
+    "category_id": 5,
+    "subCategory_id": 24,
+    "category": "Appliances",
+    "subCategory": "Kitchen Appliances"
+  },
+  {
+    "category_id": 5,
+    "subCategory_id": 25,
+    "category": "Appliances",
+    "subCategory": "Home Appliances"
+  }
+]
