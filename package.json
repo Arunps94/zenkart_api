@@ -1,11 +1,11 @@
 {
-  "name": "zenkart_api",
+  "name": "zenkartapi",
   "version": "1.0.0",
   "description": "This is for api",
-  "main": "api.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js"
+    "start": "node api.js",
+    "dev": "nodemon api.js"
   },
   "author": "APS",
   "license": "ISC",
@@ -18,6 +18,6 @@
     "mongodb": "^4.2.1",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.15"
-  },
-  "devDependencies": {}
+  }
 }
+  
