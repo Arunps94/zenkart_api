@@ -176,7 +176,7 @@ app.get('/orders', (req, res) => {
 
 app.post('/cartOrders', (req, res) => {
     console.log(req.body)
-    db.collection('zorders').insert(req.body, (err, result) => {
+    db.collection('zorders').insertOne(req.body, (err, result) => {
         if (err) throw err
         res.send("order placed")
     })
