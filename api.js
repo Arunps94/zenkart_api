@@ -186,7 +186,10 @@ app.post('/cartOrders', (req, res) => {
 app.put('/updateStatus/:id',(req, res)=>{
     var id = Number(req.params.id);
     var status = req.body.status?req.body.status:"Pending";
+<<<<<<< HEAD
     console.log(req.body);
+=======
+>>>>>>> 0e0499e65e29ad94b109555064ec0a5980e4fd00
     db.collection('zorders').updateOne(
         {id:id},
         {
