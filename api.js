@@ -167,7 +167,7 @@ app.get('/product/:id', (req, res) => {
 // return all the orders
 app.get('/orders', (req, res) => {
     var query = req.query.email 
-    db.collection('orders').find({email:query}).toArray((err, result) => {
+    db.collection('zorders').find({email:query}).toArray((err, result) => {
         if (err) throw err;
         res.send(result)
     })
@@ -176,7 +176,7 @@ app.get('/orders', (req, res) => {
 
 app.post('/cartOrders', (req, res) => {
     console.log(req.body)
-    db.collection('orders').insert(req.body, (err, result) => {
+    db.collection('zorders').insertOne(req.body, (err, result) => {
         if (err) throw err
         res.send("order placed")
     })
@@ -186,7 +186,8 @@ app.post('/cartOrders', (req, res) => {
 app.put('/updateStatus/:id',(req, res)=>{
     var id = Number(req.params.id);
     var status = req.body.status?req.body.status:"Pending";
-    db.collection('orders').updateOne(
+    console.log(req.body);
+    db.collection('zorders').updateOne(
         {id:id},
         {
             $set:{
@@ -211,7 +212,7 @@ app.post('/productItem',(req, res)=>{
 
 
 app.delete('/deleteOrder', (req, res) => {
-    db.collection('orders').remove({}, (err, result) => {
+    db.collection('zorders').remove({}, (err, result) => {
         if (err) throw err;
         res.send(result)
     })
